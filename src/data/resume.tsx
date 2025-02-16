@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Nafis Reza",
@@ -176,7 +176,7 @@ export const DATA = {
         },
         {
           type: "GitHub",
-          href: "https://github.com/nafisreza/guide-guideasy",
+          href: "https://github.com/nafisreza/guideasy",
           icon: <Icons.github className="size-3" />,
         },
       ],
