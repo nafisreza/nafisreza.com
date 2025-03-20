@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/Portfolio.png",
+        url: "https://www.nafisreza.com/Portfolio.png",
         width: 1200,
         height: 630,
         alt: "Nafis Reza - Software Engineer",
