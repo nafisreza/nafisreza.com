@@ -28,6 +28,14 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/Portfolio.png",
+        width: 1200,
+        height: 630,
+        alt: "Nafis Reza - Software Engineer",
+      },
+    ],
   },
   robots: {
     index: true,
