@@ -222,45 +222,45 @@ export const DATA = {
       image: "/liten_home.png",
       video: "",
     },
-    // {
-    //   title: "Film Buzz",
-    //   href: "https://film-buzz-3729799f06ec.herokuapp.com/",
-    //   dates: "October 2024",
-    //   active: true,
-    //   description:
-    //    [
-    //      "Fullstack blog platform for movie lovers to create watchlist, share reviews and recommendations.",
-    //      "Users can log in, sign up, manage their profile and create reviews.",
-    //      "Implemented secure user authentication with Django.",
-    //      "TMDB API integration for fetching movie data and images.",
-    //      "Integrated with Cloudinary for image and video upload, and Summernote for rich text editing.",
-    //      "PostgreSQL (NeonDB) for database management and Heroku for deployment."
-    //    ],
-    //   technologies: [
-    //     "Django",
-    //     "Python",
-    //     "PostgreSQL",
-    //     "Summernote",
-    //     "CKEditor",
-    //     "Pillow",
-    //     "Cloudinary",
-    //     "TailwindCSS",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Live",
-    //       href: "https://film-buzz-3729799f06ec.herokuapp.com/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "GitHub",
-    //       href: "https://github.com/nafisreza/film-buzz/",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/filmbuzz.png",
-    //   video: "",
-    // },
+    {
+      title: "Film Buzz",
+      href: "https://film-buzz-3729799f06ec.herokuapp.com/",
+      dates: "October 2024",
+      active: true,
+      description:
+       [
+         "Fullstack blog platform for movie lovers to create watchlist, share reviews and recommendations.",
+         "Users can log in, sign up, manage their profile and create reviews.",
+         "Implemented secure user authentication with Django.",
+         "TMDB API integration for fetching movie data and images.",
+         "Integrated with Cloudinary for image and video upload, and Summernote for rich text editing.",
+         "PostgreSQL (NeonDB) for database management and Heroku for deployment."
+       ],
+      technologies: [
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Summernote",
+        "CKEditor",
+        "Pillow",
+        "Cloudinary",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Live",
+          href: "https://film-buzz-3729799f06ec.herokuapp.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/nafisreza/film-buzz/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/filmbuzz.png",
+      video: "",
+    },
     {
       title: "Cevisezi",
       href: "https://cevisezi.ro/",
