@@ -79,7 +79,7 @@ export const DATA = {
       company: "Liten Media",
       href: "https://www.liten.media/",
       badges: [],
-      title: "Tech Lead",
+      title: "Software Engineer",
       logoUrl: "/liten_media.jpg",
       start: "2024",
       end: "Present",
