@@ -88,11 +88,11 @@ export const ResumeCard = ({
 
         </div>
         <div className="col-span-2 md:col-span-2 text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-                <p className="text-xs md:text-sm">
+                <p className="text-xs md:text-xs lg:text-sm whitespace-nowrap">
                   {period}
                 </p>
          
-                <p className="text-[10px] md:text-sm">
+                <p className="text-[10px] md:text-xs lg:text-sm whitespace-nowrap">
                   {location}
                 </p>
               </div>

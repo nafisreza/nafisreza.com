@@ -46,10 +46,39 @@ export default function Page() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <article className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-          <p className="mb-2 mt-2">
-          I'm a <span className="dark:text-yellow-200 text-gray-900 font-semibold">fullstack engineer</span> focused on building modern, accessible, human-centered products.
-          </p>
-          I taught myself to code when I was a high school freshman (while most were trying to survive algebra). Since then, it's been a nonstop journey of leveling up and expanding my skill set. Recently, I've been diving into <span className="dark:text-yellow-200 text-gray-900">open source</span> because, hey, it's time to give back. On the side, I freelance on Fiverr, where I've teamed up with <span className="dark:text-yellow-200 text-gray-900">60+ clients from 17 countries</span>, turning their ideas into web realities. As for the startup world, I was a <span className="dark:text-yellow-200 text-gray-900">founding engineer</span> at Guideasy — a remote travel startup, <span className="dark:text-yellow-200 text-gray-900">building the MVP</span> from scratch. Now, I run a <span className="dark:text-yellow-200 text-gray-900">digital agency</span> based in London, UK.
+            <p className="mb-2 mt-2">
+              I'm a{" "}
+              <span className="dark:text-yellow-200 text-gray-900 font-semibold">
+                fullstack engineer
+              </span>{" "}
+              focused on building modern, accessible, human-centered products.
+            </p>
+            I taught myself to code when I was a high school freshman (while
+            most were trying to survive algebra). Since then, it's been a
+            nonstop journey of leveling up and expanding my skill set. Recently,
+            I've been diving into{" "}
+            <span className="dark:text-yellow-200 text-gray-900">
+              open source
+            </span>{" "}
+            because, hey, it's time to give back. On the side, I freelance on
+            Fiverr, where I've teamed up with{" "}
+            <span className="dark:text-yellow-200 text-gray-900">
+              70+ clients from 11 countries
+            </span>
+            , turning their ideas into web realities. As for the startup world,
+            I was a{" "}
+            <span className="dark:text-yellow-200 text-gray-900">
+              founding engineer
+            </span>{" "}
+            at Guideasy — a remote travel startup,{" "}
+            <span className="dark:text-yellow-200 text-gray-900">
+              building the MVP
+            </span>{" "}
+            from scratch. Then, I worked at{" "}
+            <span className="dark:text-yellow-200 text-gray-900">
+              software agency
+            </span>{" "}
+            based in London, UK.
           </article>
         </BlurFade>
       </section>
@@ -167,31 +196,31 @@ export default function Page() {
                   Open Source
                 </div>
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-5xl">
-                  Software should be available to everyone!
+                  Software should be free!
                 </h2>
                 <p className="text-muted-foreground text-sm md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I love contributing to open source projects. It's a great way to collaborate with developers worldwide, learn new things, and give back to the community.
+                  I love contributing to open source projects. It's a great way
+                  to collaborate with developers worldwide, learn new things,
+                  and give back to the community.
                 </p>
               </div>
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {
-              DATA.openSource.map((project, id) => (
-                <BlurFade
-                  key={project.name}
-                  delay={BLUR_FADE_DELAY * 14 + id * 0.05}
-                >
-                  <OpenSourceCard
-                    name={project.name}
-                    stars={project.stars}
-                    details={project.details}
-                    repo={project.repo}
-                    fork={project.fork}
-                  />
-                </BlurFade>
-              ))
-            }
+            {DATA.openSource.map((project, id) => (
+              <BlurFade
+                key={project.name}
+                delay={BLUR_FADE_DELAY * 14 + id * 0.05}
+              >
+                <OpenSourceCard
+                  name={project.name}
+                  stars={project.stars}
+                  details={project.details}
+                  repo={project.repo}
+                  fork={project.fork}
+                />
+              </BlurFade>
+            ))}
           </div>
         </div>
       </section>
@@ -206,8 +235,9 @@ export default function Page() {
                 Get In Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I'm currently looking for a remote job or any new opportunities.
-              Whether you have a project to discuss or just want to say hi, my inbox is open for all!
+                I'm currently looking for a remote job or any new opportunities.
+                Whether you have a project to discuss or just want to say hi, my
+                inbox is open for all!
               </p>
             </div>
           </BlurFade>
