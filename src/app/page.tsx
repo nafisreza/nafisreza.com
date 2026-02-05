@@ -53,7 +53,7 @@ export default function Page() {
               </span>{" "}
               focused on building modern, accessible, human-centered products.
             </p>
-            I taught myself to code when I was a high school freshman (while
+            I taught myself to code when I was in middle school (while
             most were trying to survive algebra). Since then, it's been a
             nonstop journey of leveling up and expanding my skill set. Recently,
             I've been diving into{" "}
@@ -74,11 +74,17 @@ export default function Page() {
             <span className="dark:text-yellow-200 text-gray-900">
               building the MVP
             </span>{" "}
-            from scratch. Then, I worked at{" "}
+            from scratch. Then, I worked at a{" "}
             <span className="dark:text-yellow-200 text-gray-900">
               software agency
             </span>{" "}
-            based in London, UK.
+            based in London, UK. Currently, I'm a{" "}
+              Senior Software Engineer{" "}
+            at{" "}
+              Navigation Labs
+            , architecting{" "}
+            <span className="dark:text-yellow-200 text-gray-900">AI-powered solutions </span>
+            for the Vero team.
           </article>
         </BlurFade>
       </section>
@@ -235,7 +241,6 @@ export default function Page() {
                 Get In Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'm currently looking for a remote job or any new opportunities.
                 Whether you have a project to discuss or just want to say hi, my
                 inbox is open for all!
               </p>
