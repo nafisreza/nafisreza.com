@@ -1,5 +1,5 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
+import { SectionLabel } from "@/components/section-label";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
@@ -7,8 +7,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
-import Markdown from "react-markdown";
-import { OpenSourceCard } from "@/components/OpenSourceCard";
+import { OpenSourceCard } from "@/components/open-source-card";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -45,45 +44,32 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <article className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+          <article className="prose prose-invert max-w-full text-pretty font-sans text-sm text-muted-foreground">
             <p className="mb-2 mt-2">
               I'm a{" "}
-              <span className="dark:text-yellow-200 text-gray-900 font-semibold">
+              <span className="text-yellow-200 font-semibold">
                 fullstack engineer
               </span>{" "}
               focused on building modern, accessible, human-centered products.
             </p>
-            I taught myself to code when I was in middle school (while
-            most were trying to survive algebra). Since then, it's been a
-            nonstop journey of leveling up and expanding my skill set. Recently,
-            I've been diving into{" "}
-            <span className="dark:text-yellow-200 text-gray-900">
-              open source
-            </span>{" "}
+            I taught myself to code when I was in middle school (while most were
+            trying to survive algebra). Since then, it's been a nonstop journey
+            of leveling up and expanding my skill set. Recently, I've been
+            diving into <span className="text-yellow-200">open source</span>{" "}
             because, hey, it's time to give back. On the side, I freelance on
             Fiverr, where I've teamed up with{" "}
-            <span className="dark:text-yellow-200 text-gray-900">
+            <span className="text-yellow-200">
               70+ clients from 11 countries
             </span>
             , turning their ideas into web realities. As for the startup world,
-            I was a{" "}
-            <span className="dark:text-yellow-200 text-gray-900">
-              founding engineer
-            </span>{" "}
+            I was a <span className="text-yellow-200">founding engineer</span>{" "}
             at Guideasy — a remote travel startup,{" "}
-            <span className="dark:text-yellow-200 text-gray-900">
-              building the MVP
-            </span>{" "}
-            from scratch. Then, I worked at a{" "}
-            <span className="dark:text-yellow-200 text-gray-900">
-              software agency
-            </span>{" "}
-            based in London, UK. Currently, I'm a{" "}
-              Senior Software Engineer{" "}
-            at{" "}
-              Navigation Labs
-            , architecting{" "}
-            <span className="dark:text-yellow-200 text-gray-900">AI-powered solutions </span>
+            <span className="text-yellow-200">building the MVP</span> from
+            scratch. Then, I worked at a{" "}
+            <span className="text-yellow-200">software agency</span> based in
+            London, UK. Currently, I'm a Senior Software Engineer at Navigator
+            Labs , architecting{" "}
+            <span className="text-yellow-200">AI-powered solutions </span>
             for the Vero team.
           </article>
         </BlurFade>
@@ -157,9 +143,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Projects
-                </div>
+                <SectionLabel>Projects</SectionLabel>
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-5xl">
                   Check out my latest works
                 </h2>
@@ -198,9 +182,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Open Source
-                </div>
+                <SectionLabel>Open Source</SectionLabel>
                 <h2 className="text-2xl font-bold tracking-tighter sm:text-5xl">
                   Software should be free!
                 </h2>
@@ -234,9 +216,7 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                What's Next?
-              </div>
+              <SectionLabel>What&apos;s Next?</SectionLabel>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Get In Touch
               </h2>

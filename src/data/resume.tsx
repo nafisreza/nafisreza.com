@@ -7,8 +7,7 @@ export const DATA = {
   url: "https://github.com/nafisreza",
   location: "Dhaka, Bangladesh",
   locationLink: "https://www.google.com/maps/place/Dhaka",
-  description:
-    "I architect softwares that drive business forward.",
+  description: "I architect softwares that drive business forward.",
   summary:
     "I taught myself to code when I was a high school freshman (while most were trying to survive algebra). Since then, it's been a nonstop journey of leveling up and expanding my skill set. Recently, I've been diving into open source because, hey, it's time to give back. I've even contributed to some big names like Apache, Web-PHP, and TypeHero. On the side, I freelance on Fiverr, where I've teamed up with over 70 clients from 11 countries, turning their ideas into web realities. As for the startup world, I was a founding engineer at Guideasy — a remote travel startup, building the MVP from scratch. Now, Guideasy operates across 3 countries and serves 5K+ users monthly.",
   avatarUrl: "/nafisreza.jpg",
@@ -18,10 +17,10 @@ export const DATA = {
     "Redux",
     "Javascript",
     "Typescript",
-    "Python",     
-    "Ruby on Rails",       
-    "FastAPI",    
-    "LangGraph",  
+    "Python",
+    "Ruby on Rails",
+    "FastAPI",
+    "LangGraph",
     "Node.js",
     "Express",
     "TailwindCSS",
@@ -36,11 +35,9 @@ export const DATA = {
     "GraphQL",
     "Docker",
     "AWS",
-    "GCP"
+    "GCP",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "nafisrezabd@gmail.com",
     tel: "+8801730831515",
@@ -78,11 +75,11 @@ export const DATA = {
 
   work: [
     {
-      company: "Navigation Labs",
+      company: "Navigator Labs",
       href: "https://nav-labs.com/",
       badges: [],
       title: "Senior Software Engineer",
-      logoUrl: "/navlabs.jpg", 
+      logoUrl: "/navlabs.jpg",
       start: "Dec 2025",
       end: "Present",
       location: "Jackson, WY - Remote",
@@ -144,7 +141,7 @@ export const DATA = {
         "Provided consulting services to new businesses, offering insights on building scalable and maintainable web systems.",
         "Managed projects from inception to deployment, ensuring timely delivery and client satisfaction.",
         "Tutored beginners in web development, guiding them on how to be a successful freelancer.",
-        "5 star rating from every client I worked with."
+        "5 star rating from every client I worked with.",
       ],
     },
   ],
@@ -164,14 +161,12 @@ export const DATA = {
       href: "https://guideasy.com",
       dates: "November 2023",
       active: true,
-      description:
-       [
-         "Comprehensive travel management platform with user-friendly features for booking visas, holidays, flights, and tour guides.",
-         "Users can log in, sign up, and manage multiple travelers via a dedicated dashboard.",
-         "Designed holiday package system with advanced filters and customizable itineraries, enabling dynamic pricing.",
-         "Flight booking system with support for one-way, round-trip, and multi-stop options, including filters for fastest and cheapest flights."
-
-       ],
+      description: [
+        "Comprehensive travel management platform with user-friendly features for booking visas, holidays, flights, and tour guides.",
+        "Users can log in, sign up, and manage multiple travelers via a dedicated dashboard.",
+        "Designed holiday package system with advanced filters and customizable itineraries, enabling dynamic pricing.",
+        "Flight booking system with support for one-way, round-trip, and multi-stop options, including filters for fastest and cheapest flights.",
+      ],
       technologies: [
         "Next.js",
         "React.jS",
@@ -206,14 +201,12 @@ export const DATA = {
       href: "https://liten.media",
       dates: "January 2025",
       active: true,
-      description:
-       [
-         "Comprehensive travel management platform with user-friendly features for booking visas, holidays, flights, and tour guides.",
-         "Users can log in, sign up, and manage multiple travelers via a dedicated dashboard.",
-         "Designed holiday package system with advanced filters and customizable itineraries, enabling dynamic pricing.",
-         "Flight booking system with support for one-way, round-trip, and multi-stop options, including filters for fastest and cheapest flights."
-
-       ],
+      description: [
+        "Comprehensive travel management platform with user-friendly features for booking visas, holidays, flights, and tour guides.",
+        "Users can log in, sign up, and manage multiple travelers via a dedicated dashboard.",
+        "Designed holiday package system with advanced filters and customizable itineraries, enabling dynamic pricing.",
+        "Flight booking system with support for one-way, round-trip, and multi-stop options, including filters for fastest and cheapest flights.",
+      ],
       technologies: [
         "Next.js",
         "React.jS",
@@ -245,15 +238,14 @@ export const DATA = {
       href: "https://film-buzz-3729799f06ec.herokuapp.com/",
       dates: "October 2024",
       active: true,
-      description:
-       [
-         "Fullstack blog platform for movie lovers to create watchlist, share reviews and recommendations.",
-         "Users can log in, sign up, manage their profile and create reviews.",
-         "Implemented secure user authentication with Django.",
-         "TMDB API integration for fetching movie data and images.",
-         "Integrated with Cloudinary for image and video upload, and Summernote for rich text editing.",
-         "PostgreSQL (NeonDB) for database management and Heroku for deployment."
-       ],
+      description: [
+        "Fullstack blog platform for movie lovers to create watchlist, share reviews and recommendations.",
+        "Users can log in, sign up, manage their profile and create reviews.",
+        "Implemented secure user authentication with Django.",
+        "TMDB API integration for fetching movie data and images.",
+        "Integrated with Cloudinary for image and video upload, and Summernote for rich text editing.",
+        "PostgreSQL (NeonDB) for database management and Heroku for deployment.",
+      ],
       technologies: [
         "Django",
         "Python",
@@ -284,14 +276,13 @@ export const DATA = {
       href: "https://cevisezi.ro/",
       dates: "August 2024",
       active: true,
-      description:
-       [
-         "Dream exploration platform for users to share and analyze their dreams.",
-         "Appwrite backend for user authentication, data storage, and image upload.",
-         "Users can find dream interpretations and share dreams with the community.",
-         "Redux for auth state management and TinyMCE for rich text editing.",
-         "TailwindCSS for responsive design and Framer Motion for animations.",
-       ],
+      description: [
+        "Dream exploration platform for users to share and analyze their dreams.",
+        "Appwrite backend for user authentication, data storage, and image upload.",
+        "Users can find dream interpretations and share dreams with the community.",
+        "Redux for auth state management and TinyMCE for rich text editing.",
+        "TailwindCSS for responsive design and Framer Motion for animations.",
+      ],
       technologies: [
         "Next.js",
         "React.jS",
@@ -331,16 +322,18 @@ export const DATA = {
     {
       name: "TypeHero",
       stars: "6.6k",
-      details: "Connect, collaborate, and grow with a community of TypeScript developers",
+      details:
+        "Connect, collaborate, and grow with a community of TypeScript developers",
       repo: "https://github.com/typehero/typehero",
       fork: 460,
     },
     {
       name: "Apache Amoro",
       stars: "1.1k",
-      details: "Lake-native data warehouse and architecture for users and platforms.",
+      details:
+        "Lake-native data warehouse and architecture for users and platforms.",
       repo: "https://github.com/apache/amoro",
       fork: 377,
     },
-  ]
+  ],
 } as const;

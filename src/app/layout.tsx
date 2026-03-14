@@ -3,10 +3,9 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import { DATA } from "@/data/resume";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Navbar from "@/components/navbar";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
     template: `%s | ${DATA.name}`,
   },
   description: "I am a fullstack engineer focused on building modern, accessible, human-centered products. Softwares I architect, drive businesses forward.",
-  keywords:  ["Nafis Reza", "Nafis", "nafisreza", "fullstack engineer", "software engineer", "web development"],
+  keywords: ["Nafis Reza", "Nafis", "nafisreza", "fullstack engineer", "software engineer", "web development"],
   openGraph: {
     title: `${DATA.name}`,
     description: "I am a fullstack engineer focused on building modern, accessible, human-centered products. Softwares I architect, drive businesses forward.",
@@ -57,25 +56,24 @@ export const metadata: Metadata = {
     yandex: "",
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased max-w-5xl mx-auto py-12 sm:py-24 px-6 dark:bg-dot-white/[0.2] bg-dot-black/[0.2]",
+          "min-h-screen bg-background font-sans antialiased max-w-5xl mx-auto py-12 sm:py-24 px-6 bg-dot-white/[0.2]",
           fontSans.variable,
         )}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
-          <TooltipProvider delayDuration={0}>
-            {children}
-            <Navbar />
-          </TooltipProvider>
-        </ThemeProvider>
+        <TooltipProvider delayDuration={0}>
+          {children}
+          <Navbar />
+        </TooltipProvider>
         <Analytics />
       </body>
     </html>

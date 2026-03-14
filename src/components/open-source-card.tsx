@@ -6,15 +6,15 @@ import Link from "next/link";
 
 interface OpenSourceCardProps {
   name: string;
-  stars: number | string;
+  stars: string | number;
   details: string;
   repo: string;
-  fork: number | string;
+  fork: string | number;
 }
 
 export function OpenSourceCard({ name, stars, details, repo, fork }: OpenSourceCardProps) {
   return (
-    <div className="p-4 bg-white dark:bg-[#333]/50 border rounded-lg shadow-md flex flex-col justify-center gap-2 h-[140px] hover:shadow-lg transition-all duration-300 ease-in-out">
+    <div className="p-4 bg-card border rounded-lg shadow-md flex flex-col justify-center gap-2 h-[140px] hover:shadow-lg transition-all duration-300 ease-in-out">
       <div className="flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <GitHubLogoIcon width="18" height="18" />

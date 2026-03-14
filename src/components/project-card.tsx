@@ -9,12 +9,11 @@ import {
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import Markdown from "react-markdown";
 
 interface Props {
   title: string;
   href?: string;
-  description: any;
+  description: readonly string[];
   dates: string;
   tags: readonly string[];
   link?: string;
@@ -77,9 +76,9 @@ export function ProjectCard({
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <div className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <div className="prose prose-invert max-w-full text-pretty font-sans text-xs text-muted-foreground">
               <ul className="list-disc pl-5">
-                {description.map((item:string, index:number) => (
+                {description.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
               </ul>
